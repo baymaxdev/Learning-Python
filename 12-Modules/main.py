@@ -7,10 +7,11 @@ import sys
 # from myModule import generateFullName, generateGreeting
 from myModule import generateFullName as gF
 from myModule import generateGreeting as gG
+from myModule import generateStrongPassword as gSP
 
 gG(gF("Ammar", "Awan"))
 
-
+gSP(30)
 
 print(os.getcwd())
 
