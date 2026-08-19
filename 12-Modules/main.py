@@ -10,6 +10,8 @@ from myModule import generateGreeting as gG
 
 gG(gF("Ammar", "Awan"))
 
+
+
 print(os.getcwd())
 
 #print(sys.argv[0], argv[1],sys.argv[2])  # this line would print out: filename argument1 argument2
