@@ -1,5 +1,6 @@
-import string  #Using Other Modules in a Module
 import random
+import string  #Using Other Modules in a Module
+
 
 def generateFullName(firstName = "" , lastName = ""):
     fullName = firstName + ' ' + lastName
